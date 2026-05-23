@@ -14078,5 +14078,49 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "terminal-ui",
+    "name": "Terminal UI",
+    "category": "Browser / OS Vibes",
+    "summary": "Terminal UI as a lightweight interactive lab with live controls.",
+    "tags": [
+      "browser / os vibes",
+      "terminal",
+      "ui"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 46,
+      "tilt": 22
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 46
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 22
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 44,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
