@@ -1781,5 +1781,50 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "bullet-hell-demo",
+    "name": "Bullet hell demo",
+    "category": "Extra",
+    "summary": "Bullet hell demo as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "bullet",
+      "hell",
+      "demo"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 40,
+      "tilt": 16
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 40
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 16
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 50,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
