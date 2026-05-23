@@ -10181,5 +10181,60 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "parallax-showcase",
+    "name": "Parallax showcase",
+    "category": "Extra",
+    "summary": "Parallax showcase as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "parallax",
+      "showcase"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 3,
+      "radiusStep": 33,
+      "spin": 7
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 33
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 7
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 53,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
