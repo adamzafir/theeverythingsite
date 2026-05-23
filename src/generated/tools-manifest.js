@@ -6186,5 +6186,61 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "gooey-ui-experiment",
+    "name": "Gooey UI experiment",
+    "category": "Extra",
+    "summary": "Gooey UI experiment as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "gooey",
+      "ui",
+      "experiment"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 41,
+      "phase": 5
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 41
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 5
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 167,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
