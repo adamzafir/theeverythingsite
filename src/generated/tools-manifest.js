@@ -7578,5 +7578,60 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "interactive-equalizer",
+    "name": "Interactive equalizer",
+    "category": "Extra",
+    "summary": "Interactive equalizer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "interactive",
+      "equalizer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 6,
+      "amplitude": 22,
+      "phase": 10
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 6
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 22
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 166,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
