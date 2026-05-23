@@ -8512,5 +8512,51 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "lo-fi-room-page",
+    "name": "Lo-fi room page",
+    "category": "Audio / Music",
+    "summary": "Lo-fi room page as a lightweight interactive lab with live controls.",
+    "tags": [
+      "audio / music",
+      "lo",
+      "fi",
+      "room",
+      "page"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 44,
+      "tilt": 20
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 44
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 20
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 6,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
