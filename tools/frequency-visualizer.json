@@ -1,0 +1,55 @@
+{
+  "slug": "frequency-visualizer",
+  "name": "Frequency visualizer",
+  "category": "Audio / Music",
+  "summary": "Frequency visualizer as a lightweight interactive lab with live controls.",
+  "tags": [
+    "audio / music",
+    "frequency",
+    "visualizer"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "layers": 7,
+    "amplitude": 39,
+    "phase": 3
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "layers",
+      "label": "Layers",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "value": 7
+    },
+    {
+      "type": "range",
+      "key": "amplitude",
+      "label": "Amplitude",
+      "min": 8,
+      "max": 64,
+      "step": 1,
+      "value": 39
+    },
+    {
+      "type": "range",
+      "key": "phase",
+      "label": "Phase",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "value": 3
+    }
+  ],
+  "preset": {
+    "variant": "waves",
+    "hue": 309,
+    "defaults": {
+      "layers": 5,
+      "amplitude": 32,
+      "phase": 0
+    }
+  }
+}
