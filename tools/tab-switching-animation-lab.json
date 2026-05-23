@@ -1,0 +1,46 @@
+{
+  "slug": "tab-switching-animation-lab",
+  "name": "Tab switching animation lab",
+  "category": "Extra",
+  "summary": "Tab switching animation lab as a lightweight interactive lab with live controls.",
+  "tags": [
+    "extra",
+    "tab",
+    "switching",
+    "animation",
+    "lab"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "spacing": 35,
+    "tilt": 11
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "spacing",
+      "label": "Spacing",
+      "min": 12,
+      "max": 72,
+      "step": 1,
+      "value": 35
+    },
+    {
+      "type": "range",
+      "key": "tilt",
+      "label": "Tilt",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "value": 11
+    }
+  ],
+  "preset": {
+    "variant": "grid",
+    "hue": 15,
+    "defaults": {
+      "spacing": 28,
+      "tilt": 10
+    }
+  }
+}
