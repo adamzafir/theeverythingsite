@@ -11654,5 +11654,61 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "random-internet-button",
+    "name": "Random internet button",
+    "category": "Extra",
+    "summary": "Random internet button as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "random",
+      "internet",
+      "button"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 8,
+      "radiusStep": 29,
+      "spin": 19
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 8
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 29
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 19
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 281,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
