@@ -1926,5 +1926,61 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "card-shuffling-visualizer",
+    "name": "Card shuffling visualizer",
+    "category": "Extra",
+    "summary": "Card shuffling visualizer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "card",
+      "shuffling",
+      "visualizer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 3,
+      "radiusStep": 29,
+      "spin": 3
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 29
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 3
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 257,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
