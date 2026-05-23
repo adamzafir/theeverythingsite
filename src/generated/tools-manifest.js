@@ -4510,5 +4510,49 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "evolution-sandbox",
+    "name": "Evolution sandbox",
+    "category": "Games / Fun",
+    "summary": "Evolution sandbox as a lightweight interactive lab with live controls.",
+    "tags": [
+      "games / fun",
+      "evolution",
+      "sandbox"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 34,
+      "tilt": 20
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 34
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 20
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 326,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
