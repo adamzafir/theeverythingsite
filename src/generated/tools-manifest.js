@@ -711,5 +711,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "audio-reactive-particles",
+    "name": "Audio reactive particles",
+    "category": "Audio / Music",
+    "summary": "Audio reactive particles as a lightweight interactive lab with live controls.",
+    "tags": [
+      "audio / music",
+      "audio",
+      "reactive",
+      "particles"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 6,
+      "amplitude": 38,
+      "phase": 2
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 6
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 38
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 2
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 290,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
