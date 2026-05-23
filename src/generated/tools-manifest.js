@@ -14122,5 +14122,50 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "terrain-erosion-simulator",
+    "name": "Terrain erosion simulator",
+    "category": "Extra",
+    "summary": "Terrain erosion simulator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "terrain",
+      "erosion",
+      "simulator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 26,
+      "tilt": 12
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 26
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 12
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 294,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
