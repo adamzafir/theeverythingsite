@@ -10769,5 +10769,61 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "pixel-pet-simulator",
+    "name": "Pixel pet simulator",
+    "category": "Extra",
+    "summary": "Pixel pet simulator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "pixel",
+      "pet",
+      "simulator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 25,
+      "phase": 1
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 163,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
