@@ -10072,5 +10072,59 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "oscilloscope",
+    "name": "Oscilloscope",
+    "category": "Audio / Music",
+    "summary": "Oscilloscope as a lightweight interactive lab with live controls.",
+    "tags": [
+      "audio / music",
+      "oscilloscope"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 29,
+      "phase": 5
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 29
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 5
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 119,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
