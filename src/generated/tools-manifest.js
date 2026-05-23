@@ -6975,5 +6975,63 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "how-cooked-are-you-meter",
+    "name": "How cooked are you meter",
+    "category": "Weird Internet Object Energy",
+    "summary": "How cooked are you meter as a lightweight interactive lab with live controls.",
+    "tags": [
+      "weird internet object energy",
+      "how",
+      "cooked",
+      "are",
+      "you",
+      "meter"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 8,
+      "radiusStep": 33,
+      "spin": 19
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 8
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 33
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 19
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 141,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
