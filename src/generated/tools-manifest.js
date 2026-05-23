@@ -8614,5 +8614,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "lyric-sync-visualizer",
+    "name": "Lyric sync visualizer",
+    "category": "Extra",
+    "summary": "Lyric sync visualizer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "lyric",
+      "sync",
+      "visualizer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 4,
+      "amplitude": 24,
+      "phase": 0
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 4
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 24
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 0
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 204,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
