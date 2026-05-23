@@ -3096,5 +3096,61 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "deck-builder-sandbox",
+    "name": "Deck builder sandbox",
+    "category": "Extra",
+    "summary": "Deck builder sandbox as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "deck",
+      "builder",
+      "sandbox"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "density": 124,
+      "speed": 1,
+      "size": 4
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "density",
+        "label": "Density",
+        "min": 30,
+        "max": 220,
+        "step": 1,
+        "value": 124
+      },
+      {
+        "type": "range",
+        "key": "speed",
+        "label": "Speed",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 1
+      },
+      {
+        "type": "range",
+        "key": "size",
+        "label": "Size",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 4
+      }
+    ],
+    "preset": {
+      "variant": "particles",
+      "hue": 276,
+      "defaults": {
+        "density": 120,
+        "speed": 2,
+        "size": 4
+      }
+    }
   }
 ];
