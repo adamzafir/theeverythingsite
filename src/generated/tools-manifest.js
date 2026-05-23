@@ -6463,5 +6463,50 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "grid-layout-builder",
+    "name": "Grid layout builder",
+    "category": "Tools / Productivity",
+    "summary": "Grid layout builder as a lightweight interactive lab with live controls.",
+    "tags": [
+      "tools / productivity",
+      "grid",
+      "layout",
+      "builder"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 26,
+      "tilt": 22
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 26
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 22
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 24,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
