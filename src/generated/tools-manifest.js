@@ -13211,5 +13211,60 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "solar-system",
+    "name": "Solar system",
+    "category": "Visual / Interactive",
+    "summary": "Solar system as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "solar",
+      "system"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 7,
+      "radiusStep": 18,
+      "spin": 12
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 7
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 18
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 12
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 248,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
