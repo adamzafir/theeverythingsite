@@ -5025,5 +5025,50 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "fake-gps-tracker",
+    "name": "Fake GPS tracker",
+    "category": "Weird Internet Object Energy",
+    "summary": "Fake GPS tracker as a lightweight interactive lab with live controls.",
+    "tags": [
+      "weird internet object energy",
+      "fake",
+      "gps",
+      "tracker"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 28,
+      "tilt": 24
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 28
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 24
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 122,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
