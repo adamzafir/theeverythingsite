@@ -10447,5 +10447,60 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "pendulum-simulation",
+    "name": "Pendulum simulation",
+    "category": "Visual / Interactive",
+    "summary": "Pendulum simulation as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "pendulum",
+      "simulation"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 4,
+      "radiusStep": 31,
+      "spin": 9
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 4
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 31
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 9
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 191,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
