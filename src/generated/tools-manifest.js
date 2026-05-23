@@ -3653,5 +3653,61 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "double-pendulum-chaos",
+    "name": "Double pendulum chaos",
+    "category": "Visual / Interactive",
+    "summary": "Double pendulum chaos as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "double",
+      "pendulum",
+      "chaos"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 5,
+      "radiusStep": 32,
+      "spin": 10
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 32
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 210,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
