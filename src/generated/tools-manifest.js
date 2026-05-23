@@ -8670,5 +8670,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "magnetic-ui-elements",
+    "name": "Magnetic UI elements",
+    "category": "Extra",
+    "summary": "Magnetic UI elements as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "magnetic",
+      "ui",
+      "elements"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "density": 136,
+      "speed": 3,
+      "size": 4
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "density",
+        "label": "Density",
+        "min": 30,
+        "max": 220,
+        "step": 1,
+        "value": 136
+      },
+      {
+        "type": "range",
+        "key": "speed",
+        "label": "Speed",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "type": "range",
+        "key": "size",
+        "label": "Size",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 4
+      }
+    ],
+    "preset": {
+      "variant": "particles",
+      "hue": 224,
+      "defaults": {
+        "density": 120,
+        "speed": 2,
+        "size": 4
+      }
+    }
   }
 ];
