@@ -14543,5 +14543,60 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "typing-race",
+    "name": "Typing race",
+    "category": "Games / Fun",
+    "summary": "Typing race as a lightweight interactive lab with live controls.",
+    "tags": [
+      "games / fun",
+      "typing",
+      "race"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "density": 144,
+      "speed": 5,
+      "size": 4
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "density",
+        "label": "Density",
+        "min": 30,
+        "max": 220,
+        "step": 1,
+        "value": 144
+      },
+      {
+        "type": "range",
+        "key": "speed",
+        "label": "Speed",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "size",
+        "label": "Size",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 4
+      }
+    ],
+    "preset": {
+      "variant": "particles",
+      "hue": 136,
+      "defaults": {
+        "density": 120,
+        "speed": 2,
+        "size": 4
+      }
+    }
   }
 ];
