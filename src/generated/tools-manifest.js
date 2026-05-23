@@ -5918,5 +5918,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "fractal-tree-generator",
+    "name": "Fractal tree generator",
+    "category": "Visual / Interactive",
+    "summary": "Fractal tree generator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "fractal",
+      "tree",
+      "generator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 25,
+      "phase": 1
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 343,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
