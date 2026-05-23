@@ -1,0 +1,56 @@
+{
+  "slug": "random-button-generator",
+  "name": "Random button generator",
+  "category": "Weird Internet Object Energy",
+  "summary": "Random button generator as a lightweight interactive lab with live controls.",
+  "tags": [
+    "weird internet object energy",
+    "random",
+    "button",
+    "generator"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "density": 152,
+    "speed": 3,
+    "size": 4
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "density",
+      "label": "Density",
+      "min": 30,
+      "max": 220,
+      "step": 1,
+      "value": 152
+    },
+    {
+      "type": "range",
+      "key": "speed",
+      "label": "Speed",
+      "min": 1,
+      "max": 12,
+      "step": 1,
+      "value": 3
+    },
+    {
+      "type": "range",
+      "key": "size",
+      "label": "Size",
+      "min": 1,
+      "max": 12,
+      "step": 1,
+      "value": 4
+    }
+  ],
+  "preset": {
+    "variant": "particles",
+    "hue": 8,
+    "defaults": {
+      "density": 120,
+      "speed": 2,
+      "size": 4
+    }
+  }
+}
