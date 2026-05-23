@@ -5227,5 +5227,51 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "fake-social-media-feed",
+    "name": "Fake social media feed",
+    "category": "Weird Internet Object Energy",
+    "summary": "Fake social media feed as a lightweight interactive lab with live controls.",
+    "tags": [
+      "weird internet object energy",
+      "fake",
+      "social",
+      "media",
+      "feed"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 24,
+      "tilt": 20
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 24
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 20
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 46,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
