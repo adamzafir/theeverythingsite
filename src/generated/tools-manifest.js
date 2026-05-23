@@ -7432,5 +7432,50 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "infinite-staircase-illusion",
+    "name": "Infinite staircase illusion",
+    "category": "Extra",
+    "summary": "Infinite staircase illusion as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "infinite",
+      "staircase",
+      "illusion"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 38,
+      "tilt": 24
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 38
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 24
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 162,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
