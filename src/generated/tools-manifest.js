@@ -13877,5 +13877,60 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "synth-sandbox",
+    "name": "Synth sandbox",
+    "category": "Audio / Music",
+    "summary": "Synth sandbox as a lightweight interactive lab with live controls.",
+    "tags": [
+      "audio / music",
+      "synth",
+      "sandbox"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 33,
+      "phase": 9
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 33
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 9
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 195,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
