@@ -3552,5 +3552,50 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "dock-hover-animation",
+    "name": "Dock hover animation",
+    "category": "Extra",
+    "summary": "Dock hover animation as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "dock",
+      "hover",
+      "animation"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 34,
+      "tilt": 10
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 34
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 356,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
