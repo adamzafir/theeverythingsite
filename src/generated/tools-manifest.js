@@ -4778,5 +4778,50 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "fake-captcha-generator",
+    "name": "Fake CAPTCHA generator",
+    "category": "Weird Internet Object Energy",
+    "summary": "Fake CAPTCHA generator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "weird internet object energy",
+      "fake",
+      "captcha",
+      "generator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 30,
+      "tilt": 6
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 30
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 6
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 160,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
