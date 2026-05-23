@@ -8178,5 +8178,60 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "kanban-board",
+    "name": "Kanban board",
+    "category": "Tools / Productivity",
+    "summary": "Kanban board as a lightweight interactive lab with live controls.",
+    "tags": [
+      "tools / productivity",
+      "kanban",
+      "board"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 39,
+      "phase": 9
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 39
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 9
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 99,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
