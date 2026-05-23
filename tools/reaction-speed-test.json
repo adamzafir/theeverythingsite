@@ -1,0 +1,45 @@
+{
+  "slug": "reaction-speed-test",
+  "name": "Reaction speed test",
+  "category": "Games / Fun",
+  "summary": "Reaction speed test as a lightweight interactive lab with live controls.",
+  "tags": [
+    "games / fun",
+    "reaction",
+    "speed",
+    "test"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "spacing": 26,
+    "tilt": 12
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "spacing",
+      "label": "Spacing",
+      "min": 12,
+      "max": 72,
+      "step": 1,
+      "value": 26
+    },
+    {
+      "type": "range",
+      "key": "tilt",
+      "label": "Tilt",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "value": 12
+    }
+  ],
+  "preset": {
+    "variant": "grid",
+    "hue": 174,
+    "defaults": {
+      "spacing": 28,
+      "tilt": 10
+    }
+  }
+}
