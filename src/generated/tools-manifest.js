@@ -4366,5 +4366,60 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "ecosystem-simulation",
+    "name": "Ecosystem simulation",
+    "category": "Games / Fun",
+    "summary": "Ecosystem simulation as a lightweight interactive lab with live controls.",
+    "tags": [
+      "games / fun",
+      "ecosystem",
+      "simulation"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 31,
+      "phase": 1
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 31
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 307,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
