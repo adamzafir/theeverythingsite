@@ -8013,5 +8013,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "julia-set-explorer",
+    "name": "Julia set explorer",
+    "category": "Visual / Interactive",
+    "summary": "Julia set explorer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "julia",
+      "set",
+      "explorer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 7,
+      "radiusStep": 25,
+      "spin": 19
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 7
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 19
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 21,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
