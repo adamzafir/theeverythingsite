@@ -6242,5 +6242,60 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "gradient-editor",
+    "name": "Gradient editor",
+    "category": "Tools / Productivity",
+    "summary": "Gradient editor as a lightweight interactive lab with live controls.",
+    "tags": [
+      "tools / productivity",
+      "gradient",
+      "editor"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "density": 132,
+      "speed": 3,
+      "size": 4
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "density",
+        "label": "Density",
+        "min": 30,
+        "max": 220,
+        "step": 1,
+        "value": 132
+      },
+      {
+        "type": "range",
+        "key": "speed",
+        "label": "Speed",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "type": "range",
+        "key": "size",
+        "label": "Size",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 4
+      }
+    ],
+    "preset": {
+      "variant": "particles",
+      "hue": 308,
+      "defaults": {
+        "density": 120,
+        "speed": 2,
+        "size": 4
+      }
+    }
   }
 ];
