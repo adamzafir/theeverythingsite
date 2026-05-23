@@ -12045,5 +12045,61 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "retro-mac-parody",
+    "name": "Retro Mac parody",
+    "category": "Browser / OS Vibes",
+    "summary": "Retro Mac parody as a lightweight interactive lab with live controls.",
+    "tags": [
+      "browser / os vibes",
+      "retro",
+      "mac",
+      "parody"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 23,
+      "phase": 5
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 23
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 5
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 215,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
