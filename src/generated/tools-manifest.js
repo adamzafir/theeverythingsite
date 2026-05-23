@@ -4823,5 +4823,61 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "fake-cctv-viewer",
+    "name": "Fake CCTV viewer",
+    "category": "Weird Internet Object Energy",
+    "summary": "Fake CCTV viewer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "weird internet object energy",
+      "fake",
+      "cctv",
+      "viewer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 25,
+      "phase": 1
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 103,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
