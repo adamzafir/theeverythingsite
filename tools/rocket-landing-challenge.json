@@ -1,0 +1,56 @@
+{
+  "slug": "rocket-landing-challenge",
+  "name": "Rocket landing challenge",
+  "category": "Extra",
+  "summary": "Rocket landing challenge as a lightweight interactive lab with live controls.",
+  "tags": [
+    "extra",
+    "rocket",
+    "landing",
+    "challenge"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "orbits": 6,
+    "radiusStep": 26,
+    "spin": 8
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "orbits",
+      "label": "Orbits",
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "value": 6
+    },
+    {
+      "type": "range",
+      "key": "radiusStep",
+      "label": "Radius Step",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "value": 26
+    },
+    {
+      "type": "range",
+      "key": "spin",
+      "label": "Spin",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "value": 8
+    }
+  ],
+  "preset": {
+    "variant": "orbit",
+    "hue": 32,
+    "defaults": {
+      "orbits": 6,
+      "radiusStep": 24,
+      "spin": 0
+    }
+  }
+}
