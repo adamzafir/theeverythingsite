@@ -14920,5 +14920,60 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "voxel-renderer",
+    "name": "Voxel renderer",
+    "category": "Visual / Interactive",
+    "summary": "Voxel renderer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "voxel",
+      "renderer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 37,
+      "phase": 1
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 37
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 211,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
