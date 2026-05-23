@@ -7856,5 +7856,51 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "inventory-drag-and-drop",
+    "name": "Inventory drag-and-drop",
+    "category": "Extra",
+    "summary": "Inventory drag-and-drop as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "inventory",
+      "drag",
+      "and",
+      "drop"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 30,
+      "tilt": 6
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 30
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 6
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 220,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
