@@ -263,5 +263,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "ambient-sound-mixer",
+    "name": "Ambient sound mixer",
+    "category": "Audio / Music",
+    "summary": "Ambient sound mixer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "audio / music",
+      "ambient",
+      "sound",
+      "mixer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 7,
+      "amplitude": 35,
+      "phase": 11
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 7
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 35
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 11
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 233,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
