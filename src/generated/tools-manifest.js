@@ -599,5 +599,61 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "asteroid-field-simulation",
+    "name": "Asteroid field simulation",
+    "category": "Extra",
+    "summary": "Asteroid field simulation as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "asteroid",
+      "field",
+      "simulation"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 3,
+      "radiusStep": 23,
+      "spin": 5
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 3
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 23
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 5
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 335,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
