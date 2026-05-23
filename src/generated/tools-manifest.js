@@ -10502,5 +10502,61 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "perlin-noise-terrain",
+    "name": "Perlin noise terrain",
+    "category": "Visual / Interactive",
+    "summary": "Perlin noise terrain as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "perlin",
+      "noise",
+      "terrain"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "density": 156,
+      "speed": 1,
+      "size": 4
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "density",
+        "label": "Density",
+        "min": 30,
+        "max": 220,
+        "step": 1,
+        "value": 156
+      },
+      {
+        "type": "range",
+        "key": "speed",
+        "label": "Speed",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 1
+      },
+      {
+        "type": "range",
+        "key": "size",
+        "label": "Size",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 4
+      }
+    ],
+    "preset": {
+      "variant": "particles",
+      "hue": 324,
+      "defaults": {
+        "density": 120,
+        "speed": 2,
+        "size": 4
+      }
+    }
   }
 ];
