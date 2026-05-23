@@ -6875,5 +6875,49 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "hexadecimal-visualizer",
+    "name": "Hexadecimal visualizer",
+    "category": "Extra",
+    "summary": "Hexadecimal visualizer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "hexadecimal",
+      "visualizer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 32,
+      "tilt": 18
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 32
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 18
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 108,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
