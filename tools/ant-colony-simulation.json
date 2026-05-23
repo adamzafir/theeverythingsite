@@ -1,0 +1,56 @@
+{
+  "slug": "ant-colony-simulation",
+  "name": "Ant colony simulation",
+  "category": "Games / Fun",
+  "summary": "Ant colony simulation as a lightweight interactive lab with live controls.",
+  "tags": [
+    "games / fun",
+    "ant",
+    "colony",
+    "simulation"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "density": 152,
+    "speed": 1,
+    "size": 4
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "density",
+      "label": "Density",
+      "min": 30,
+      "max": 220,
+      "step": 1,
+      "value": 152
+    },
+    {
+      "type": "range",
+      "key": "speed",
+      "label": "Speed",
+      "min": 1,
+      "max": 12,
+      "step": 1,
+      "value": 1
+    },
+    {
+      "type": "range",
+      "key": "size",
+      "label": "Size",
+      "min": 1,
+      "max": 12,
+      "step": 1,
+      "value": 4
+    }
+  ],
+  "preset": {
+    "variant": "particles",
+    "hue": 288,
+    "defaults": {
+      "density": 120,
+      "speed": 2,
+      "size": 4
+    }
+  }
+}
