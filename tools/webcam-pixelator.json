@@ -1,0 +1,55 @@
+{
+  "slug": "webcam-pixelator",
+  "name": "Webcam pixelator",
+  "category": "Extra",
+  "summary": "Webcam pixelator as a lightweight interactive lab with live controls.",
+  "tags": [
+    "extra",
+    "webcam",
+    "pixelator"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "layers": 5,
+    "amplitude": 39,
+    "phase": 9
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "layers",
+      "label": "Layers",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "value": 5
+    },
+    {
+      "type": "range",
+      "key": "amplitude",
+      "label": "Amplitude",
+      "min": 8,
+      "max": 64,
+      "step": 1,
+      "value": 39
+    },
+    {
+      "type": "range",
+      "key": "phase",
+      "label": "Phase",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "value": 9
+    }
+  ],
+  "preset": {
+    "variant": "waves",
+    "hue": 279,
+    "defaults": {
+      "layers": 5,
+      "amplitude": 32,
+      "phase": 0
+    }
+  }
+}
