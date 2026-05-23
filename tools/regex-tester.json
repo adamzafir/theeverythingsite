@@ -1,0 +1,44 @@
+{
+  "slug": "regex-tester",
+  "name": "Regex tester",
+  "category": "Tools / Productivity",
+  "summary": "Regex tester as a lightweight interactive lab with live controls.",
+  "tags": [
+    "tools / productivity",
+    "regex",
+    "tester"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "spacing": 38,
+    "tilt": 24
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "spacing",
+      "label": "Spacing",
+      "min": 12,
+      "max": 72,
+      "step": 1,
+      "value": 38
+    },
+    {
+      "type": "range",
+      "key": "tilt",
+      "label": "Tilt",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "value": 24
+    }
+  ],
+  "preset": {
+    "variant": "grid",
+    "hue": 42,
+    "defaults": {
+      "spacing": 28,
+      "tilt": 10
+    }
+  }
+}
