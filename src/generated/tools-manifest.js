@@ -11900,5 +11900,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "recursive-portal-effect",
+    "name": "Recursive portal effect",
+    "category": "Extra",
+    "summary": "Recursive portal effect as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "recursive",
+      "portal",
+      "effect"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 6,
+      "radiusStep": 25,
+      "spin": 19
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 6
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 19
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 181,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
