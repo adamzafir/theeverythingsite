@@ -8915,5 +8915,49 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "maze-generator",
+    "name": "Maze generator",
+    "category": "Maths / Cool Nerd Stuff",
+    "summary": "Maze generator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "maths / cool nerd stuff",
+      "maze",
+      "generator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 37,
+      "tilt": 23
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 37
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 23
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 83,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
