@@ -1023,5 +1023,60 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "binary-translator",
+    "name": "Binary translator",
+    "category": "Extra",
+    "summary": "Binary translator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "binary",
+      "translator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 9,
+      "radiusStep": 29,
+      "spin": 11
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 9
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 29
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 11
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 89,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
