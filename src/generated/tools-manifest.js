@@ -13067,5 +13067,48 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "snake",
+    "name": "Snake",
+    "category": "Games / Fun",
+    "summary": "Snake as a lightweight interactive lab with live controls.",
+    "tags": [
+      "games / fun",
+      "snake"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 40,
+      "tilt": 16
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 40
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 16
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 230,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
