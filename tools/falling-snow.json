@@ -1,0 +1,55 @@
+{
+  "slug": "falling-snow",
+  "name": "Falling snow",
+  "category": "Visual / Interactive",
+  "summary": "Falling snow as a lightweight interactive lab with live controls.",
+  "tags": [
+    "visual / interactive",
+    "falling",
+    "snow"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "layers": 5,
+    "amplitude": 31,
+    "phase": 1
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "layers",
+      "label": "Layers",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "value": 5
+    },
+    {
+      "type": "range",
+      "key": "amplitude",
+      "label": "Amplitude",
+      "min": 8,
+      "max": 64,
+      "step": 1,
+      "value": 31
+    },
+    {
+      "type": "range",
+      "key": "phase",
+      "label": "Phase",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "value": 1
+    }
+  ],
+  "preset": {
+    "variant": "waves",
+    "hue": 247,
+    "defaults": {
+      "layers": 5,
+      "amplitude": 32,
+      "phase": 0
+    }
+  }
+}
