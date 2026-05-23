@@ -14598,5 +14598,50 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "vector-field-visualizer",
+    "name": "Vector field visualizer",
+    "category": "Maths / Cool Nerd Stuff",
+    "summary": "Vector field visualizer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "maths / cool nerd stuff",
+      "vector",
+      "field",
+      "visualizer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 46,
+      "tilt": 12
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 46
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 12
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 254,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
