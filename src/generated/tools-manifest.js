@@ -14497,5 +14497,51 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "turn-based-combat-demo",
+    "name": "Turn-based combat demo",
+    "category": "Extra",
+    "summary": "Turn-based combat demo as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "turn",
+      "based",
+      "combat",
+      "demo"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 44,
+      "tilt": 20
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 44
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 20
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 126,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
