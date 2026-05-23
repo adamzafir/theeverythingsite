@@ -3452,5 +3452,61 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "dna-helix-visualizer",
+    "name": "DNA helix visualizer",
+    "category": "Extra",
+    "summary": "DNA helix visualizer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "dna",
+      "helix",
+      "visualizer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 4,
+      "radiusStep": 32,
+      "spin": 10
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 4
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 32
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 10,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
