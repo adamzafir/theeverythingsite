@@ -1,0 +1,44 @@
+{
+  "slug": "infinite-grid",
+  "name": "Infinite grid",
+  "category": "Visual / Interactive",
+  "summary": "Infinite grid as a lightweight interactive lab with live controls.",
+  "tags": [
+    "visual / interactive",
+    "infinite",
+    "grid"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "spacing": 41,
+    "tilt": 7
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "spacing",
+      "label": "Spacing",
+      "min": 12,
+      "max": 72,
+      "step": 1,
+      "value": 41
+    },
+    {
+      "type": "range",
+      "key": "tilt",
+      "label": "Tilt",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "value": 7
+    }
+  ],
+  "preset": {
+    "variant": "grid",
+    "hue": 39,
+    "defaults": {
+      "spacing": 28,
+      "tilt": 10
+    }
+  }
+}
