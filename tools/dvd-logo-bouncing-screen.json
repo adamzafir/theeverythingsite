@@ -1,0 +1,46 @@
+{
+  "slug": "dvd-logo-bouncing-screen",
+  "name": "DVD logo bouncing screen",
+  "category": "Weird Internet Object Energy",
+  "summary": "DVD logo bouncing screen as a lightweight interactive lab with live controls.",
+  "tags": [
+    "weird internet object energy",
+    "dvd",
+    "logo",
+    "bouncing",
+    "screen"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "spacing": 20,
+    "tilt": 16
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "spacing",
+      "label": "Spacing",
+      "min": 12,
+      "max": 72,
+      "step": 1,
+      "value": 20
+    },
+    {
+      "type": "range",
+      "key": "tilt",
+      "label": "Tilt",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "value": 16
+    }
+  ],
+  "preset": {
+    "variant": "grid",
+    "hue": 330,
+    "defaults": {
+      "spacing": 28,
+      "tilt": 10
+    }
+  }
+}
