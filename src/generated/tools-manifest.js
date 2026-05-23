@@ -2248,5 +2248,49 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "cloth-simulation",
+    "name": "Cloth simulation",
+    "category": "Visual / Interactive",
+    "summary": "Cloth simulation as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "cloth",
+      "simulation"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 46,
+      "tilt": 12
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 46
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 12
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 134,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
