@@ -3252,5 +3252,61 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "dice-probability-sandbox",
+    "name": "Dice probability sandbox",
+    "category": "Maths / Cool Nerd Stuff",
+    "summary": "Dice probability sandbox as a lightweight interactive lab with live controls.",
+    "tags": [
+      "maths / cool nerd stuff",
+      "dice",
+      "probability",
+      "sandbox"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 47,
+      "phase": 5
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 47
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 5
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 311,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
