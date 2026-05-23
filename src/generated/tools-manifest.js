@@ -7265,5 +7265,61 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "infinite-hallway-illusion",
+    "name": "Infinite hallway illusion",
+    "category": "Weird Internet Object Energy",
+    "summary": "Infinite hallway illusion as a lightweight interactive lab with live controls.",
+    "tags": [
+      "weird internet object energy",
+      "infinite",
+      "hallway",
+      "illusion"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 9,
+      "radiusStep": 25,
+      "spin": 7
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 9
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 7
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 293,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
