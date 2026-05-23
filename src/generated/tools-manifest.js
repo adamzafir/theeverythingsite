@@ -1982,5 +1982,61 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "cassette-tape-animation",
+    "name": "Cassette tape animation",
+    "category": "Audio / Music",
+    "summary": "Cassette tape animation as a lightweight interactive lab with live controls.",
+    "tags": [
+      "audio / music",
+      "cassette",
+      "tape",
+      "animation"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 37,
+      "phase": 1
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 37
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 271,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
