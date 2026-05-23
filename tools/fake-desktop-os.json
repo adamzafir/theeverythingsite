@@ -1,0 +1,45 @@
+{
+  "slug": "fake-desktop-os",
+  "name": "Fake desktop OS",
+  "category": "Browser / OS Vibes",
+  "summary": "Fake desktop OS as a lightweight interactive lab with live controls.",
+  "tags": [
+    "browser / os vibes",
+    "fake",
+    "desktop",
+    "os"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "spacing": 45,
+    "tilt": 21
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "spacing",
+      "label": "Spacing",
+      "min": 12,
+      "max": 72,
+      "step": 1,
+      "value": 45
+    },
+    {
+      "type": "range",
+      "key": "tilt",
+      "label": "Tilt",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "value": 21
+    }
+  ],
+  "preset": {
+    "variant": "grid",
+    "hue": 25,
+    "defaults": {
+      "spacing": 28,
+      "tilt": 10
+    }
+  }
+}
