@@ -11024,5 +11024,50 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "poker-hand-simulator",
+    "name": "Poker hand simulator",
+    "category": "Extra",
+    "summary": "Poker hand simulator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "poker",
+      "hand",
+      "simulator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 46,
+      "tilt": 12
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 46
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 12
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 314,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
