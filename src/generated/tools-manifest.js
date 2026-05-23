@@ -9916,5 +9916,50 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "old-windows-parody",
+    "name": "Old Windows parody",
+    "category": "Browser / OS Vibes",
+    "summary": "Old Windows parody as a lightweight interactive lab with live controls.",
+    "tags": [
+      "browser / os vibes",
+      "old",
+      "windows",
+      "parody"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 24,
+      "tilt": 10
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 24
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 196,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
