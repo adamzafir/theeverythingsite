@@ -9223,5 +9223,50 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "mobile-notch-simulator",
+    "name": "Mobile notch simulator",
+    "category": "Extra",
+    "summary": "Mobile notch simulator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "mobile",
+      "notch",
+      "simulator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 32,
+      "tilt": 8
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 32
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 8
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 318,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
