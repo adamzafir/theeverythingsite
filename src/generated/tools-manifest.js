@@ -3408,5 +3408,49 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "dijkstra-visualization",
+    "name": "Dijkstra visualization",
+    "category": "Maths / Cool Nerd Stuff",
+    "summary": "Dijkstra visualization as a lightweight interactive lab with live controls.",
+    "tags": [
+      "maths / cool nerd stuff",
+      "dijkstra",
+      "visualization"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 42,
+      "tilt": 8
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 42
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 8
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 178,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
