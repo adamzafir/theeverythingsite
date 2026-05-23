@@ -4109,5 +4109,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "dynamic-subtitle-renderer",
+    "name": "Dynamic subtitle renderer",
+    "category": "Extra",
+    "summary": "Dynamic subtitle renderer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "dynamic",
+      "subtitle",
+      "renderer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 7,
+      "amplitude": 23,
+      "phase": 11
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 7
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 23
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 11
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 185,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
