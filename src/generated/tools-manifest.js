@@ -9582,5 +9582,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "mouse-magnetic-particles",
+    "name": "Mouse magnetic particles",
+    "category": "Visual / Interactive",
+    "summary": "Mouse magnetic particles as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "mouse",
+      "magnetic",
+      "particles"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 7,
+      "radiusStep": 29,
+      "spin": 11
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 7
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 29
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 11
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 209,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
