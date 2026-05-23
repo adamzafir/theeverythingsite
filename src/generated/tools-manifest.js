@@ -12267,5 +12267,61 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "rocket-launch-simulator",
+    "name": "Rocket launch simulator",
+    "category": "Extra",
+    "summary": "Rocket launch simulator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "rocket",
+      "launch",
+      "simulator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 8,
+      "radiusStep": 21,
+      "spin": 3
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 8
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 21
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 3
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 297,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
