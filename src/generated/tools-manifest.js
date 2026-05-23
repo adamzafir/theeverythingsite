@@ -4265,5 +4265,50 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "easter-egg-collection",
+    "name": "Easter egg collection",
+    "category": "Extra",
+    "summary": "Easter egg collection as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "easter",
+      "egg",
+      "collection"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 48,
+      "tilt": 24
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 48
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 24
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 262,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
