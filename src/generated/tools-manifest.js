@@ -6564,5 +6564,60 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "habit-tracker",
+    "name": "Habit tracker",
+    "category": "Tools / Productivity",
+    "summary": "Habit tracker as a lightweight interactive lab with live controls.",
+    "tags": [
+      "tools / productivity",
+      "habit",
+      "tracker"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 9,
+      "radiusStep": 21,
+      "spin": 3
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 9
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 21
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 3
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 137,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
