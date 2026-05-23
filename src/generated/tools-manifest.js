@@ -3709,5 +3709,49 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "draggable-windows",
+    "name": "Draggable windows",
+    "category": "Browser / OS Vibes",
+    "summary": "Draggable windows as a lightweight interactive lab with live controls.",
+    "tags": [
+      "browser / os vibes",
+      "draggable",
+      "windows"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 28,
+      "tilt": 14
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 28
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 14
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 272,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
