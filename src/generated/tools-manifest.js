@@ -1481,5 +1481,60 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "bpm-tapper",
+    "name": "BPM tapper",
+    "category": "Audio / Music",
+    "summary": "BPM tapper as a lightweight interactive lab with live controls.",
+    "tags": [
+      "audio / music",
+      "bpm",
+      "tapper"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 6,
+      "amplitude": 34,
+      "phase": 10
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 6
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 34
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 214,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
