@@ -8870,5 +8870,50 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "matrix-code-rain",
+    "name": "Matrix code rain",
+    "category": "Extra",
+    "summary": "Matrix code rain as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "matrix",
+      "code",
+      "rain"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 31,
+      "tilt": 17
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 31
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 17
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 29,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
