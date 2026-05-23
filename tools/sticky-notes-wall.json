@@ -1,0 +1,45 @@
+{
+  "slug": "sticky-notes-wall",
+  "name": "Sticky notes wall",
+  "category": "Tools / Productivity",
+  "summary": "Sticky notes wall as a lightweight interactive lab with live controls.",
+  "tags": [
+    "tools / productivity",
+    "sticky",
+    "notes",
+    "wall"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "spacing": 42,
+    "tilt": 8
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "spacing",
+      "label": "Spacing",
+      "min": 12,
+      "max": 72,
+      "step": 1,
+      "value": 42
+    },
+    {
+      "type": "range",
+      "key": "tilt",
+      "label": "Tilt",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "value": 8
+    }
+  ],
+  "preset": {
+    "variant": "grid",
+    "hue": 118,
+    "defaults": {
+      "spacing": 28,
+      "tilt": 10
+    }
+  }
+}
