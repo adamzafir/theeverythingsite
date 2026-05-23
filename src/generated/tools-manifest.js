@@ -4054,5 +4054,60 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "dynamic-skybox",
+    "name": "Dynamic skybox",
+    "category": "Extra",
+    "summary": "Dynamic skybox as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "dynamic",
+      "skybox"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 5,
+      "amplitude": 19,
+      "phase": 1
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 19
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 199,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
