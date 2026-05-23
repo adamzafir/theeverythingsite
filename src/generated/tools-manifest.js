@@ -6352,5 +6352,60 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "gravity-simulator",
+    "name": "Gravity simulator",
+    "category": "Visual / Interactive",
+    "summary": "Gravity simulator as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "gravity",
+      "simulator"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 4,
+      "radiusStep": 19,
+      "spin": 1
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 4
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 19
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 1
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 19,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
