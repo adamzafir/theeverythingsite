@@ -1,0 +1,56 @@
+{
+  "slug": "audio-delay-playground",
+  "name": "Audio delay playground",
+  "category": "Extra",
+  "summary": "Audio delay playground as a lightweight interactive lab with live controls.",
+  "tags": [
+    "extra",
+    "audio",
+    "delay",
+    "playground"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "layers": 4,
+    "amplitude": 20,
+    "phase": 8
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "layers",
+      "label": "Layers",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "value": 4
+    },
+    {
+      "type": "range",
+      "key": "amplitude",
+      "label": "Amplitude",
+      "min": 8,
+      "max": 64,
+      "step": 1,
+      "value": 20
+    },
+    {
+      "type": "range",
+      "key": "phase",
+      "label": "Phase",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "value": 8
+    }
+  ],
+  "preset": {
+    "variant": "waves",
+    "hue": 128,
+    "defaults": {
+      "layers": 5,
+      "amplitude": 32,
+      "phase": 0
+    }
+  }
+}
