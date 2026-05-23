@@ -1,0 +1,55 @@
+{
+  "slug": "sorting-visualizer",
+  "name": "Sorting visualizer",
+  "category": "Maths / Cool Nerd Stuff",
+  "summary": "Sorting visualizer as a lightweight interactive lab with live controls.",
+  "tags": [
+    "maths / cool nerd stuff",
+    "sorting",
+    "visualizer"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "orbits": 5,
+    "radiusStep": 25,
+    "spin": 15
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "orbits",
+      "label": "Orbits",
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "value": 5
+    },
+    {
+      "type": "range",
+      "key": "radiusStep",
+      "label": "Radius Step",
+      "min": 12,
+      "max": 36,
+      "step": 1,
+      "value": 25
+    },
+    {
+      "type": "range",
+      "key": "spin",
+      "label": "Spin",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "value": 15
+    }
+  ],
+  "preset": {
+    "variant": "orbit",
+    "hue": 45,
+    "defaults": {
+      "orbits": 6,
+      "radiusStep": 24,
+      "spin": 0
+    }
+  }
+}
