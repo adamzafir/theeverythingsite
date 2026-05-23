@@ -2038,5 +2038,49 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "cellular-automata",
+    "name": "Cellular automata",
+    "category": "Maths / Cool Nerd Stuff",
+    "summary": "Cellular automata as a lightweight interactive lab with live controls.",
+    "tags": [
+      "maths / cool nerd stuff",
+      "cellular",
+      "automata"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 38,
+      "tilt": 24
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 38
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 24
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 102,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
