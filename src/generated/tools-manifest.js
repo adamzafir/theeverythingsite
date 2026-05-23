@@ -7688,5 +7688,60 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "interactive-galaxy",
+    "name": "Interactive galaxy",
+    "category": "Visual / Interactive",
+    "summary": "Interactive galaxy as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "interactive",
+      "galaxy"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 6,
+      "radiusStep": 28,
+      "spin": 10
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 6
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 28
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 10
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 190,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
