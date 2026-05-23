@@ -15405,5 +15405,60 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "widget-system",
+    "name": "Widget system",
+    "category": "Browser / OS Vibes",
+    "summary": "Widget system as a lightweight interactive lab with live controls.",
+    "tags": [
+      "browser / os vibes",
+      "widget",
+      "system"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "density": 132,
+      "speed": 1,
+      "size": 4
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "density",
+        "label": "Density",
+        "min": 30,
+        "max": 220,
+        "step": 1,
+        "value": 132
+      },
+      {
+        "type": "range",
+        "key": "speed",
+        "label": "Speed",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 1
+      },
+      {
+        "type": "range",
+        "key": "size",
+        "label": "Size",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "value": 4
+      }
+    ],
+    "preset": {
+      "variant": "particles",
+      "hue": 348,
+      "defaults": {
+        "density": 120,
+        "speed": 2,
+        "size": 4
+      }
+    }
   }
 ];
