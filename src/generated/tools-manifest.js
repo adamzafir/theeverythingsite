@@ -8825,5 +8825,50 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "masonry-layout-playground",
+    "name": "Masonry layout playground",
+    "category": "Extra",
+    "summary": "Masonry layout playground as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "masonry",
+      "layout",
+      "playground"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 30,
+      "tilt": 6
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 30
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 6
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 280,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
