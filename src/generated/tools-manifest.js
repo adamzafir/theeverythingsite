@@ -11710,5 +11710,50 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "random-maze-runner",
+    "name": "Random maze runner",
+    "category": "Extra",
+    "summary": "Random maze runner as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "random",
+      "maze",
+      "runner"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 40,
+      "tilt": 6
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 40
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 6
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 200,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
