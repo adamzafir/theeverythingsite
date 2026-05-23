@@ -767,5 +767,61 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "audio-waveform-recorder",
+    "name": "Audio waveform recorder",
+    "category": "Extra",
+    "summary": "Audio waveform recorder as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "audio",
+      "waveform",
+      "recorder"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "layers": 4,
+      "amplitude": 42,
+      "phase": 0
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "layers",
+        "label": "Layers",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "value": 4
+      },
+      {
+        "type": "range",
+        "key": "amplitude",
+        "label": "Amplitude",
+        "min": 8,
+        "max": 64,
+        "step": 1,
+        "value": 42
+      },
+      {
+        "type": "range",
+        "key": "phase",
+        "label": "Phase",
+        "min": 0,
+        "max": 24,
+        "step": 1,
+        "value": 0
+      }
+    ],
+    "preset": {
+      "variant": "waves",
+      "hue": 336,
+      "defaults": {
+        "layers": 5,
+        "amplitude": 32,
+        "phase": 0
+      }
+    }
   }
 ];
