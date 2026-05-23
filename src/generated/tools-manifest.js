@@ -6830,5 +6830,50 @@ export const tools = [
         "phase": 0
       }
     }
+  },
+  {
+    "slug": "hex-grid-editor",
+    "name": "Hex grid editor",
+    "category": "Extra",
+    "summary": "Hex grid editor as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "hex",
+      "grid",
+      "editor"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 42,
+      "tilt": 18
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 42
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 18
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 28,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
