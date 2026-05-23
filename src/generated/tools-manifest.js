@@ -13110,5 +13110,50 @@ export const tools = [
         "tilt": 10
       }
     }
+  },
+  {
+    "slug": "snap-grid-interaction",
+    "name": "Snap grid interaction",
+    "category": "Extra",
+    "summary": "Snap grid interaction as a lightweight interactive lab with live controls.",
+    "tags": [
+      "extra",
+      "snap",
+      "grid",
+      "interaction"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 45,
+      "tilt": 21
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 45
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 21
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 205,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
