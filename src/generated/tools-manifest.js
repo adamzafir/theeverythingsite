@@ -11388,5 +11388,60 @@ export const tools = [
         "size": 4
       }
     }
+  },
+  {
+    "slug": "procedural-terrain",
+    "name": "Procedural terrain",
+    "category": "Visual / Interactive",
+    "summary": "Procedural terrain as a lightweight interactive lab with live controls.",
+    "tags": [
+      "visual / interactive",
+      "procedural",
+      "terrain"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "orbits": 5,
+      "radiusStep": 25,
+      "spin": 3
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "orbits",
+        "label": "Orbits",
+        "min": 2,
+        "max": 10,
+        "step": 1,
+        "value": 5
+      },
+      {
+        "type": "range",
+        "key": "radiusStep",
+        "label": "Radius Step",
+        "min": 12,
+        "max": 36,
+        "step": 1,
+        "value": 25
+      },
+      {
+        "type": "range",
+        "key": "spin",
+        "label": "Spin",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "value": 3
+      }
+    ],
+    "preset": {
+      "variant": "orbit",
+      "hue": 77,
+      "defaults": {
+        "orbits": 6,
+        "radiusStep": 24,
+        "spin": 0
+      }
+    }
   }
 ];
