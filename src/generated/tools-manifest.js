@@ -10925,5 +10925,48 @@ export const tools = [
         "spin": 0
       }
     }
+  },
+  {
+    "slug": "platformer",
+    "name": "Platformer",
+    "category": "Games / Fun",
+    "summary": "Platformer as a lightweight interactive lab with live controls.",
+    "tags": [
+      "games / fun",
+      "platformer"
+    ],
+    "engine": "canvas-lab",
+    "defaults": {
+      "spacing": 22,
+      "tilt": 8
+    },
+    "controls": [
+      {
+        "type": "range",
+        "key": "spacing",
+        "label": "Spacing",
+        "min": 12,
+        "max": 72,
+        "step": 1,
+        "value": 22
+      },
+      {
+        "type": "range",
+        "key": "tilt",
+        "label": "Tilt",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "value": 8
+      }
+    ],
+    "preset": {
+      "variant": "grid",
+      "hue": 98,
+      "defaults": {
+        "spacing": 28,
+        "tilt": 10
+      }
+    }
   }
 ];
