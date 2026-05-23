@@ -1,0 +1,45 @@
+{
+  "slug": "bezier-curve-editor",
+  "name": "Bezier curve editor",
+  "category": "Tools / Productivity",
+  "summary": "Bezier curve editor as a lightweight interactive lab with live controls.",
+  "tags": [
+    "tools / productivity",
+    "bezier",
+    "curve",
+    "editor"
+  ],
+  "engine": "canvas-lab",
+  "defaults": {
+    "spacing": 24,
+    "tilt": 20
+  },
+  "controls": [
+    {
+      "type": "range",
+      "key": "spacing",
+      "label": "Spacing",
+      "min": 12,
+      "max": 72,
+      "step": 1,
+      "value": 24
+    },
+    {
+      "type": "range",
+      "key": "tilt",
+      "label": "Tilt",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "value": 20
+    }
+  ],
+  "preset": {
+    "variant": "grid",
+    "hue": 346,
+    "defaults": {
+      "spacing": 28,
+      "tilt": 10
+    }
+  }
+}
